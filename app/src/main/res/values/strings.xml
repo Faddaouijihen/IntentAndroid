@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Intent</string>
+    <string name="btnphone">DIAL</string>
+    <string name="btnactivity">OTHER APPLICATION</string>
+    <string name="btnBrowser">GOOGLE</string>
+    <string name="btnwifi">WIFI SETTING</string>
+    <string name="btnapps">APPLICATION</string>
+    <string name="phone">phone number to call</string>
+</resources>

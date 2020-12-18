@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnPhone"
+        android:layout_width="345dp"
+        android:layout_height="48dp"
+        android:hint="@string/btnphone"
+        android:text="DIAL"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.387"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnActivity"
+        android:layout_width="345dp"
+        android:layout_height="48dp"
+        android:hint="@string/btnactivity"
+        android:text="OTHER ACTIVITY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.471"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnBrowser"
+        android:layout_width="345dp"
+        android:layout_height="48dp"
+        android:hint="@string/btnBrowser"
+        android:text="GOOGLE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.559"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnWifi"
+        android:layout_width="345dp"
+        android:layout_height="48dp"
+        android:hint="@string/btnwifi"
+        android:text="WIFI SETTINGS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnApps"
+        android:layout_width="345dp"
+        android:layout_height="48dp"
+        android:hint="@string/btnapps"
+        android:text="APPLICATION"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.745"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/phone"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="120dp"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
